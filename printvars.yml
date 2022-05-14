@@ -1,0 +1,11 @@
+---
+
+- name: "Printing some var info"
+  hosts: usa
+  gather_facts: no
+
+  tasks:
+    - name: "Displaying var stuff"
+      debug:
+        #msg:  "{{ hostvars[ansible_host]}}"
+        msg:  "{{ eigrp_style }}"

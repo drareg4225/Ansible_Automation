@@ -1,0 +1,6 @@
+---
+
+ntp: "5.5.5.5"
+eigrp_style: "named"
+super_secret_bgp: 5432
+ninja_ospf: "5" 

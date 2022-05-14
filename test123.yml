@@ -1,0 +1,15 @@
+---
+
+all:
+  children:
+    VTR:
+      children:
+        VTR-XS:
+          hosts:
+            VTR-XS-01:
+              ansible_host: 1.1.1.1
+        VTR-CS:
+        VTR-FW:
+        VTR-INR:
+
+

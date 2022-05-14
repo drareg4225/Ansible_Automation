@@ -1,0 +1,11 @@
+---
+
+- name: "Printing some var info"
+  hosts: uk
+  gather_facts: no
+
+  tasks:
+    - name: "Pars var stuff"
+      debug:
+        msg:  "{{hostvars[ansible_host].ospf.networks.0}}"
+
