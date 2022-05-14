@@ -1,0 +1,10 @@
+---
+
+- name: "Print some encrypted stuff"
+  hosts: usa
+  gather_facts: no
+
+  tasks:
+    - name: "Task1 -Decrypt and print"
+      debug:
+        msg: "{{ super_secret_bgp}}"
